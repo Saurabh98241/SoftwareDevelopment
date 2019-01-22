@@ -13,7 +13,8 @@ package studentlist;
 public class Student {
     private String name;
     private int ID;
-    
+    private String DoB;
+   
     public Student()
     {
         name = "Name Not Set";
@@ -24,6 +25,7 @@ public class Student {
           this.name = givenName;
           this.ID = givenID;
     }
+    // set value to name
     public void setName(String givenName)
     {
        this.name = givenName;
@@ -42,5 +44,15 @@ public class Student {
     public int getID ()
     {   
         return ID;
+    }
+
+   
+    public String getDoB() {
+        return DoB;
+    }
+
+   
+    public void setDoB(String DoB) {
+        this.DoB = DoB;
     }
 }
