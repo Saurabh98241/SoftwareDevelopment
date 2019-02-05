@@ -22,6 +22,7 @@ public class Student {
         name = "Name Not Set";
         ID = 0;
     }
+    //set name and id
     public Student(String givenName, int givenID)
     {
           this.name = givenName;
